@@ -1,0 +1,55 @@
+{
+  "name": "catholic-fathers-ai-mcp",
+  "version": "1.0.0",
+  "description": "Catholic Fathers AI Model Context Protocol Server for Autonomous Patristic Wisdom, Apostolic Succession Guardianship, Theological Rigor & Sacred Pastoral Guidance Protocol",
+  "tools": [
+    {
+      "name": "audit_doctrinal_orthodoxy",
+      "description": "Cross-reference theological statements against patristic literature, councils, and catechism to verify theological orthodoxy and moral coherence",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "doctrinal_subject": {
+            "type": "string"
+          },
+          "theological_statement": {
+            "type": "string"
+          },
+          "patristic_source_corpus": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "doctrinal_subject",
+          "theological_statement"
+        ]
+      }
+    },
+    {
+      "name": "disburse_patristic_seminary_grant",
+      "description": "Trigger automated micro-escrow releases for seminary student scholarships, biblical manuscript conservation, and rural parish pastoral relief",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
